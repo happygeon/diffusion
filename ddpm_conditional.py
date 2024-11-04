@@ -119,7 +119,7 @@ def launch():
     args.batch_size = 14
     args.image_size = 64
     args.num_classes = 10
-    args.dataset_path = r"root/Diffusion-Models-pytorch/cifar10_train"
+    args.dataset_path = r"root/diffusion/cifar10_train"
     args.device = "cuda"
     args.lr = 3e-4
     train(args)
